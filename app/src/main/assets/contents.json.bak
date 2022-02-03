@@ -1,0 +1,447 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Valentine Day Love Pack",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "Tray.png",
+      "publisher_email": "supercatgamestudio@gmail.com",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+	  "image_data_version": "1",
+	  "animated_sticker_pack": true,
+      "stickers": [
+        {
+          "image_file": "4.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "5.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "10.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "17.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "18.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "19.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "21.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "29.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (1).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (2).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (3).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (4).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (5).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (6).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (7).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (8).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (9).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (10).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (11).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (12).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (13).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (14).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (15).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (16).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (17).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (18).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (19).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker (20).webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+		}
+	]
+},
+{
+		"identifier": "2",
+		"name": "Valentine Day Love Pack 2",
+		"publisher": "Super Cat Games",
+		"tray_image_file": "Tray.png",
+		"publisher_email": "supercatgamestudio@gmail.com",
+		"publisher_website": "",
+		"privacy_policy_website": "",
+		"license_agreement_website": "",
+		"image_data_version": "1",
+		"animated_sticker_pack": true,
+		"stickers": [
+		{
+			"image_file": "ezgif.com-gif-maker (1).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker (2).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker (3).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker (4).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker (5).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker (6).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker (7).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker (8).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker (9).webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "ezgif.com-gif-maker.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_1.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_2.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_4.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_7.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_8.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_9.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_10.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_11.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_13.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_15.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_16.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_18.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_20.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_21.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_22.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_23.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_25.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_26.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_28.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		},
+		{
+			"image_file": "sticker_30.gif.webp",
+			"emojis": [
+				"",
+				""
+			]
+		}
+		]
+	}
+]
+}

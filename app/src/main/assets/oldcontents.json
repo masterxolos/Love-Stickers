@@ -1,0 +1,1238 @@
+{
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.supercatgames.stickerapp",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "Baby Jesus",
+      "name": "Baby Jesus",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "christmas sticker-15.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-28.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-29.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-30.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-31.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-32.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-33.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-34.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "Christmas Accessories",
+      "name": "Christmas Accessories",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "christmas sticker-02.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-03.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-08.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-12.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-14.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-16.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-21.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-25.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-30.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-34.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-42.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-21.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-25.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-26.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-41.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-42.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-43.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-45.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-48.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-49.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-50.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "ChristmasAnimals",
+      "name": "Christmas Animals",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "ChristmasBird.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ChristmasFox.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ChristmasHedgehog.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ChristmasOwl.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ChristmasPenguins.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ChristmasSquirrel.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "MagicBunny.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "MagicFox.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "MerryChristmas.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "NewYearDeer.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "NewYearFox.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "NewYearOwl.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "NewYearPenguin.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "NewYearRabbit.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "NoelDeer.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Snowman.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "ChristmasBear",
+      "name": "Christmas Bear",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "BearOfChristmas.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Christmas Deer.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Deer.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "FunnyBear.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "HappyBear.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Santa_s Deers.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Santa_sBear.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "TeddyBear.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "ChristmasWishes",
+      "name": "Christmas Wishes",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "christmas sticker-31.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-32.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-38.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-39.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "JoyeuxNoel.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-05.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-07.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-08.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-09.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-11.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-13.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-22.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-24.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-27.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "Santa",
+      "name": "Santa",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "Hi Santa.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Ho Ho Ho Badge.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Ho Ho Ho Santa.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Merry Christmas Santa.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Oil Paint Santa.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Santa Badge.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Santa in The Chimney .webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Santa Sleigh with Deers.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Santa with Sleigh.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "Wishing Merry Christmas.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "wooden gift santa.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "wooden sleigh santa.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "Santa_s Gifts",
+      "name": "Santa_s Gifts",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": false,
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "christmas sticker-04.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-05.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-09.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-19.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-22.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-26.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-27.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-33.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-40.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-49.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-19.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-51.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-52.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "Snowman",
+      "name": "Snowman",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "christmas sticker-01.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-11.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-13.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-18.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-20.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-41.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-44.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-45.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-50.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-14.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-46.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "ChristmasDeer",
+      "name": "Christmas Deer",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": true,
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "deer1.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "deer3.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "deer4.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "deer5.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "deer6.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "balonmerry.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker-1.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "HappyNewYear",
+      "name": "Happy New Year",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": true,
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "2022.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "CANDLE.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "HAPPY.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "HAPPY-1.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ORNAMENTAL-2.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "SANTA-3.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stkr_SantaNY.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "ho-ho-ho",
+      "name": "ho-ho-ho",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": true,
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "HO-HO-HO-2.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "HO-HO-HO-3.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ICON.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "SANTA-7.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "snow.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stkr_aa.gif.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "santapenguins",
+      "name": "SantaPenguins",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": true,
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "ezgif.com-gif-maker.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker 2.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker 3.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "christmasgifts",
+      "name": "Christmas Gifts",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": true,
+      "image_data_version": "4",
+      "stickers": [
+        {
+          "image_file": "ezgif.com-gif-maker.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker1.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker2.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker3.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker4.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker5.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker6.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker7.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker8.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker9.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker10.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker11.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker12.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker13.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker14.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker15.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker16.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker17.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker18.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker19.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker20.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker21.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker22.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker23.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "ezgif.com-gif-maker24.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

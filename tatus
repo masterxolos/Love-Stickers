@@ -1,0 +1,108 @@
+[33mcommit b174ec0b3b07a38672c32a00806c522b11210851[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Thu Jan 6 17:16:10 2022 +0300
+
+    ÇALIŞAN VERSİYONU
+
+[33mcommit 095c1d171ab6741fa1b5404f1fe7baee385523aa[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 17:34:43 2021 +0300
+
+    build version 2
+    gifts added
+
+[33mcommit cee637ed8b56238a02b6ba146350ced1319f0537[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 17:34:43 2021 +0300
+
+    build version
+
+[33mcommit b713f9043654d39460f2f3f80975888b11016f63[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 13:16:36 2021 +0300
+
+    Ad Ids changed to real one
+
+[33mcommit 94a0c741efb12369c5b2da436485efd9eb6e87f7[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 12:59:10 2021 +0300
+
+    Interstitial ad added
+
+[33mcommit 340675dfc809b3b88e8e0bb11b20f86d8c277074[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 03:07:02 2021 +0300
+
+    2. banner added
+    
+    id is under activity_sticker_pack_details.xml
+
+[33mcommit a135de76081e6f9ebb93c7e7257758beecdc04e6[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 03:01:04 2021 +0300
+
+    changed with largebanner
+
+[33mcommit 9a277c631dbad7bcc177d5aaf6d8e5a8cb751a40[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 02:58:59 2021 +0300
+
+    first banner added
+    
+    the id is under activity_sticker_pack_list.xml
+
+[33mcommit 8b7c2a9da11b727fc5edf67068d4290f76aec364[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 01:35:18 2021 +0300
+
+    rewarded ad added
+
+[33mcommit 41ef46e4f3d975fbbed8af6652778172552d8cf9[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 01:11:13 2021 +0300
+
+    .
+
+[33mcommit d07d09df86fe439ae899ef326e189e8fc77c12fd[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 00:47:32 2021 +0300
+
+    interstital ad added
+
+[33mcommit ae111548f6b25115be42c553e6bff4bf0b496b64[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Wed Dec 22 00:42:19 2021 +0300
+
+    reklam eklendi
+
+[33mcommit 1051da2b4f44f29ca3fde88d5a18e5f1d608026f[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Tue Dec 21 23:11:27 2021 +0300
+
+    deprecated fix
+
+[33mcommit 4866eb0034a530bcd17b62b7882d43ca89674f88[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Tue Dec 21 23:10:18 2021 +0300
+
+    lint error fixed
+
+[33mcommit 81939f33899136e0637cd4cbb93d903820150b53[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Tue Dec 21 22:53:04 2021 +0300
+
+    Revert "Update StickerPackListAdapter.java"
+    
+    This reverts commit 25ead3e6837fed0abe8cd68bac3ef19dfd67d09b.
+
+[33mcommit 25ead3e6837fed0abe8cd68bac3ef19dfd67d09b[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Tue Dec 21 22:49:11 2021 +0300
+
+    Update StickerPackListAdapter.java
+
+[33mcommit e12cc26631fe6b1dc74108a19343874ee694833a[m
+Author: masterxolos <ozgur-2000-6@hotmail.com>
+Date:   Tue Dec 21 22:43:47 2021 +0300
+
+    Initial commit
