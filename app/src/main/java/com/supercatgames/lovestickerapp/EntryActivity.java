@@ -1,11 +1,3 @@
-/*
- * Copyright (c) WhatsApp Inc. and its affiliates.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 package com.supercatgames.lovestickerapp;
 
 import android.app.Activity;
@@ -23,26 +15,27 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 
+import com.adcolony.sdk.AdColony;
+import com.adcolony.sdk.AdColonyAdSize;
+import com.adcolony.sdk.AdColonyAdView;
+import com.adcolony.sdk.AdColonyAdViewListener;
+import com.adcolony.sdk.AdColonyAppOptions;
+import com.adcolony.sdk.AdColonyInterstitial;
+import com.adcolony.sdk.AdColonyInterstitialListener;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.unity3d.ads.IUnityAdsInitializationListener;
-import com.unity3d.ads.IUnityAdsLoadListener;
-import com.unity3d.ads.IUnityAdsShowListener;
-import com.unity3d.ads.UnityAds;
-import com.unity3d.ads.UnityAdsShowOptions;
 
 public class EntryActivity extends BaseActivity {
     private View progressBar;
     private LoadListAsyncTask loadListAsyncTask;
 
-
-    private String unityGameID = "4571537";
-    private Boolean testMode = true;
-    private String adUnitId = "Rewarded_Android";
-    private Object BaseActivity;
+    private String ZoneID = "vz5f4d9386b26d46c493";
+    private String BannerZoneID = "vz39fe89d101e241a090";
+    private String AppID = "appc7961e952b744d8cbd";
 
 
     public void ShowInterstitialAd(){
@@ -50,7 +43,29 @@ public class EntryActivity extends BaseActivity {
     }
 
     public void loadInterstitialAd(){
-        //todo load ad
+        AdColony.configure(this, AppID, ZoneID);
+        AdColonyAppOptions appOptions = new AdColonyAppOptions()
+                .setKeepScreenOn(true);
+        AdColonyInterstitialListener listener = new AdColonyInterstitialListener() {
+            @Override
+            public void onRequestFilled(AdColonyInterstitial ad) {
+                ad.show();
+                /** Store and use this ad object to show your ad when appropriate */
+            }
+        };
+
+        AdColony.requestInterstitial(ZoneID, listener);
+    }
+
+    public void loadBannerAd(){
+        AdColonyAdViewListener listener = new AdColonyAdViewListener() {
+            @Override
+            public void onRequestFilled(AdColonyAdView ad) {
+                /** Add this ad object to whatever layout you have set up for this placement */
+            }
+        };
+
+        AdColony.requestAdView(BannerZoneID, listener, AdColonyAdSize.BANNER);
     }
 
 
@@ -66,10 +81,8 @@ public class EntryActivity extends BaseActivity {
         progressBar = findViewById(R.id.entry_activity_progress);
         loadListAsyncTask = new LoadListAsyncTask(this);
         loadListAsyncTask.execute();
-
-
-        InitializeAdsScript.showRewardedAd(this);
-
+        loadInterstitialAd();
+        loadBannerAd();
     }
 
     // Implement a function to load a rewarded ad. The ad will start to show once the ad has been loaded.

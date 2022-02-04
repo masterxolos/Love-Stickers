@@ -22,14 +22,35 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
+import com.adcolony.sdk.AdColony;
+import com.adcolony.sdk.AdColonyAppOptions;
+import com.adcolony.sdk.AdColonyInterstitial;
+import com.adcolony.sdk.AdColonyInterstitialListener;
+
 public abstract class AddStickerPackActivity extends BaseActivity {
     private static final int ADD_PACK = 200;
     private static final String TAG = "AddStickerPackActivity";
-    private static final String TAG2 = "AddStickerPack AdMob";
+    private String ZoneID = "vz5f4d9386b26d46c493";
+    private String AppID = "appc7961e952b744d8cbd";
+
+    public void loadInterstitialAd(){
+        AdColony.configure(this, AppID, ZoneID);
+        AdColonyAppOptions appOptions = new AdColonyAppOptions()
+                .setKeepScreenOn(true);
+        AdColonyInterstitialListener listener = new AdColonyInterstitialListener() {
+            @Override
+            public void onRequestFilled(AdColonyInterstitial ad) {
+                ad.show();
+                /** Store and use this ad object to show your ad when appropriate */
+            }
+        };
+
+        AdColony.requestInterstitial(ZoneID, listener);
+    }
 
     protected void addStickerPackToWhatsApp(String identifier, String stickerPackName) {
-        InitializeAdsScript.showRewardedAd(this);
         //todo call -> if success call
+        loadInterstitialAd();
         addStickerPackToWhatsApp2(identifier, stickerPackName);
     }
 
@@ -63,7 +84,7 @@ public abstract class AddStickerPackActivity extends BaseActivity {
         Intent intent = createIntentToAddStickerPack(identifier, stickerPackName);
         intent.setPackage(whatsappPackageName);
         try {
-            startActivityForResult(intent, ADD_PACK);
+             startActivityForResult(intent, ADD_PACK);
         } catch (ActivityNotFoundException e) {
             Toast.makeText(this, R.string.add_pack_fail_prompt_update_whatsapp, Toast.LENGTH_LONG).show();
         }
