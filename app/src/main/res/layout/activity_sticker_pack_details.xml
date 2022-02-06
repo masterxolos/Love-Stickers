@@ -8,7 +8,7 @@
     android:layout_marginTop="8dp"
     android:layout_marginBottom="@dimen/preview_side_margin"
     android:orientation="vertical"
-    android:background="#f675b9">
+    android:background="#ffdbe9">
 
 
 
@@ -103,7 +103,7 @@
             android:paddingEnd="@dimen/preview_side_margin"
             android:paddingRight="@dimen/preview_side_margin"
             android:requiresFadingEdge="vertical"
-            android:background="#f675b9"
+            android:background="#ffdbe9"
             />
 
         <com.facebook.drawee.view.SimpleDraweeView
