@@ -11,6 +11,7 @@
     <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 
     <application
+        android:exported="true"
         android:usesCleartextTraffic="true"
         android:name="com.supercatgames.lovestickerapp.StickerApplication"
         android:allowBackup="false"
@@ -23,21 +24,27 @@
         android:hardwareAccelerated="true"
         tools:ignore="ExtraText,GoogleAppIndexingWarning">
 
-        <activity android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
+        <activity
+            android:exported="true"
+            android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
             android:hardwareAccelerated="true"/>
 
-        <activity android:name="com.adcolony.sdk.AdColonyAdViewActivity"
+        <activity
+            android:exported="true"
+            android:name="com.adcolony.sdk.AdColonyAdViewActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
             android:hardwareAccelerated="true"/>
 
 
         <meta-data
+            android:exported="true"
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-2358576670844910~9737655618" />
-        <activity android:name="com.supercatgames.lovestickerapp.EntryActivity"
+        <activity
+            android:name="com.supercatgames.lovestickerapp.EntryActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,6 +53,7 @@
         </activity>
         <activity android:name="com.supercatgames.lovestickerapp.StickerPackListActivity" />
         <activity
+            android:exported="true"
             android:name="com.supercatgames.lovestickerapp.StickerPackDetailsActivity"
             android:parentActivityName="com.supercatgames.lovestickerapp.StickerPackListActivity"
             tools:ignore="UnusedAttribute">
@@ -54,6 +62,7 @@
                 android:value="com.supercatgames.lovestickerapp.StickerPackListActivity" />
         </activity>
         <activity
+            android:exported="true"
             android:name="com.supercatgames.lovestickerapp.StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"
             android:parentActivityName="com.supercatgames.lovestickerapp.StickerPackDetailsActivity"

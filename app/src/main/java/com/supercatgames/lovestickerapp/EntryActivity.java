@@ -1,6 +1,7 @@
 package com.supercatgames.lovestickerapp;
 
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -72,6 +73,7 @@ public class EntryActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         //setContentView(R.layout.activity_entry);
 
         overridePendingTransition(0, 0);

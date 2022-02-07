@@ -10,6 +10,7 @@ package com.supercatgames.lovestickerapp;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.app.PendingIntent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -37,7 +38,14 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
-
+        PendingIntent pendingIntent = null;
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S) {
+            pendingIntent = PendingIntent.getActivity
+                    (this, 0, getIntent(), PendingIntent.FLAG_MUTABLE);
+        }
+        else
+            pendingIntent = PendingIntent.getActivity
+                    (this, 0, getIntent(), PendingIntent.FLAG_IMMUTABLE);
         //todo sanırım main screen ads
         /*
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
