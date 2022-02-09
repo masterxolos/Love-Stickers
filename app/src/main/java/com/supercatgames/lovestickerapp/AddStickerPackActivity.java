@@ -26,6 +26,9 @@ import com.adcolony.sdk.AdColony;
 import com.adcolony.sdk.AdColonyAppOptions;
 import com.adcolony.sdk.AdColonyInterstitial;
 import com.adcolony.sdk.AdColonyInterstitialListener;
+import com.facebook.appevents.AppEventsConstants;
+import com.facebook.appevents.AppEventsLogger;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 public abstract class AddStickerPackActivity extends BaseActivity {
     private static final int ADD_PACK = 200;
@@ -51,6 +54,20 @@ public abstract class AddStickerPackActivity extends BaseActivity {
     protected void addStickerPackToWhatsApp(String identifier, String stickerPackName) {
         //todo call -> if success call
         loadInterstitialAd();
+
+        FirebaseAnalytics mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        Bundle params = new Bundle();
+        params.putString("identifier", identifier);
+        params.putString("stickerPackName", stickerPackName);
+        mFirebaseAnalytics.logEvent("share_image", params);
+
+
+        AppEventsLogger logger = AppEventsLogger.newLogger(this);
+        Bundle parameters = new Bundle();
+        parameters.putString("identifier", identifier);
+        parameters.putString("stickerPackName", stickerPackName);
+        logger.logEvent("BattleTheMonster");
+        logger.logEvent("BattleTheMonster", parameters);
         addStickerPackToWhatsApp2(identifier, stickerPackName);
     }
 

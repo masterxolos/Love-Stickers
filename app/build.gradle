@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 
+apply plugin: 'com.google.gms.google-services'
+
 android {
     signingConfigs {
         '1' {
@@ -25,8 +27,8 @@ android {
         applicationId "com.supercatgames.lovestickerapp"
         minSdkVersion 19
         targetSdkVersion 32
-        versionCode 5
-        versionName "5.0"
+        versionCode 8
+        versionName "8.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
@@ -140,5 +142,10 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
     implementation 'com.google.android.gms:play-services-ads:20.5.0'
     implementation 'androidx.work:work-runtime:2.7.1'
+    implementation 'com.facebook.android:facebook-android-sdk:12.3.0'
+    implementation 'com.facebook.android:facebook-marketing:latest.release'
+
+    implementation platform('com.google.firebase:firebase-bom:29.0.4')
+    implementation 'com.google.firebase:firebase-analytics'
 
 }

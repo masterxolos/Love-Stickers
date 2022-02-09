@@ -23,6 +23,9 @@ import com.adcolony.sdk.AdColonyAdViewListener;
 import com.adcolony.sdk.AdColonyAppOptions;
 import com.adcolony.sdk.AdColonyInterstitial;
 import com.adcolony.sdk.AdColonyInterstitialListener;
+import com.facebook.appevents.AppEventsConstants;
+import com.facebook.appevents.AppEventsLogger;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -38,6 +41,7 @@ public class EntryActivity extends BaseActivity {
     private String BannerZoneID = "vz39fe89d101e241a090";
     private String AppID = "appc7961e952b744d8cbd";
 
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     public void ShowInterstitialAd(){
        //todo show ads
@@ -73,7 +77,7 @@ public class EntryActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         //setContentView(R.layout.activity_entry);
 
         overridePendingTransition(0, 0);
@@ -85,6 +89,12 @@ public class EntryActivity extends BaseActivity {
         loadListAsyncTask.execute();
         loadInterstitialAd();
         loadBannerAd();
+
+        AppEventsLogger logger = AppEventsLogger.newLogger(this);
+        Bundle params = new Bundle();
+        params.putString(AppEventsConstants.EVENT_PARAM_CONTENT_TYPE, "opened");
+        params.putString(AppEventsConstants.EVENT_PARAM_CONTENT_ID, "opened");
+        logger.logEvent(AppEventsConstants.EVENT_NAME_VIEWED_CONTENT, 34.99, params);
     }
 
     // Implement a function to load a rewarded ad. The ad will start to show once the ad has been loaded.
