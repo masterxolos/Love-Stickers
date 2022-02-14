@@ -66,8 +66,10 @@ public abstract class AddStickerPackActivity extends BaseActivity {
         Bundle parameters = new Bundle();
         parameters.putString("identifier", identifier);
         parameters.putString("stickerPackName", stickerPackName);
-        logger.logEvent("BattleTheMonster");
+        //logger.logEvent("BattleTheMonster");
         logger.logEvent("BattleTheMonster", parameters);
+
+
         addStickerPackToWhatsApp2(identifier, stickerPackName);
     }
 
