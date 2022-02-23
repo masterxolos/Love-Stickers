@@ -16,6 +16,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -33,7 +36,14 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private ArrayList<StickerPack> stickerPackList;
 
     public void displaybanner() {
-        //todo display banner
+        MobileAds.initialize(this, initializationStatus -> {
+        });
+        AdView mAdView = findViewById(R.id.adView);
+        // AdResources adResources = new AdResources();
+        // https://developers.google.com/admob/android/banner
+
+
+        mAdView.loadAd(new AdRequest.Builder().build());
 
     }
     @Override

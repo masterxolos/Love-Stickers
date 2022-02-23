@@ -27,6 +27,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
 
 import java.lang.ref.WeakReference;
 
@@ -61,7 +66,44 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private static final String TAG = "DetailsActivity AdMob: ";
 
     public void displaybanner() {
-        //todo load ad
+        MobileAds.initialize(this, initializationStatus -> {
+        });
+        AdView mAdView = findViewById(R.id.adView);
+        // AdResources adResources = new AdResources();
+        // https://developers.google.com/admob/android/banner
+
+        mAdView.loadAd(new AdRequest.Builder().build());
+        mAdView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                Log.d(TAG, "banner ad loaded.");
+            }
+
+            @Override
+            public void onAdFailedToLoad(LoadAdError adError) {
+                // Code to be executed when an ad request fails.
+                Log.d(TAG, "banner ad error");
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when an ad opens an overlay that
+                // covers the screen.
+            }
+
+            @Override
+            public void onAdClicked() {
+                // Code to be executed when the user clicks on an ad.
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Code to be executed when the user is about to return
+                // to the app after tapping on an ad.
+                Log.d(TAG, "banner ad closed");
+            }
+        });
     }
 
 

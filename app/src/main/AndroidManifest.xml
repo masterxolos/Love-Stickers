@@ -47,7 +47,7 @@
         <meta-data
             android:exported="true"
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2358576670844910~9737655618" />
+            android:value="ca-app-pub-2358576670844910~6951150068" />
         <activity
             android:name="com.supercatgames.lovestickerapp.EntryActivity"
             android:exported="true">

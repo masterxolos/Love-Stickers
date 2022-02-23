@@ -30,4 +30,15 @@
             android:text=""
             android:textColor="?attr/colorError" />
     </FrameLayout>
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="ca-app-pub-2358576670844910/8072660042"/>
+
 </LinearLayout>

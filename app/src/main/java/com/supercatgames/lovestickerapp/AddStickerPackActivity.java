@@ -28,49 +28,46 @@ import com.adcolony.sdk.AdColonyInterstitial;
 import com.adcolony.sdk.AdColonyInterstitialListener;
 import com.facebook.appevents.AppEventsConstants;
 import com.facebook.appevents.AppEventsLogger;
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 public abstract class AddStickerPackActivity extends BaseActivity {
     private static final int ADD_PACK = 200;
     private static final String TAG = "AddStickerPackActivity";
-    private String ZoneID = "vz5f4d9386b26d46c493";
-    private String AppID = "appc7961e952b744d8cbd";
+    private static final String TAG2 = "AddStickerPack AdMob";
 
-    public void loadInterstitialAd(){
-        AdColony.configure(this, AppID, ZoneID);
-        AdColonyAppOptions appOptions = new AdColonyAppOptions()
-                .setKeepScreenOn(true);
-        AdColonyInterstitialListener listener = new AdColonyInterstitialListener() {
-            @Override
-            public void onRequestFilled(AdColonyInterstitial ad) {
-                ad.show();
-                /** Store and use this ad object to show your ad when appropriate */
-            }
-        };
-
-        AdColony.requestInterstitial(ZoneID, listener);
-    }
 
     protected void addStickerPackToWhatsApp(String identifier, String stickerPackName) {
-        //todo call -> if success call
-        loadInterstitialAd();
+        if (mRewardedAd != null)
 
-        FirebaseAnalytics mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
-        Bundle params = new Bundle();
-        params.putString("identifier", identifier);
-        params.putString("stickerPackName", stickerPackName);
-        mFirebaseAnalytics.logEvent("share_image", params);
+            ShowRewardedAd();
+        else
+            addStickerPackToWhatsApp2(identifier, stickerPackName);
 
+        mRewardedAd.setFullScreenContentCallback(new FullScreenContentCallback() {
 
-        AppEventsLogger logger = AppEventsLogger.newLogger(this);
-        Bundle parameters = new Bundle();
-        parameters.putString("identifier", identifier);
-        parameters.putString("stickerPackName", stickerPackName);
-        //logger.logEvent("BattleTheMonster");
-        logger.logEvent("BattleTheMonster", parameters);
+            @Override
+            public void onAdDismissedFullScreenContent() {
+                // Called when ad is dismissed.
+                // Set the ad reference to null so you don't show the ad a second time.
+                Log.d(TAG2, "Rewarded ad was dismissed.");
+                mRewardedAd = null;
+                loadRewardedAd();
+                addStickerPackToWhatsApp2(identifier, stickerPackName);
+            }
+            @Override
+            public void onAdShowedFullScreenContent() {
+                // Called when ad is shown.
+                Log.d(TAG, "Rewarded Ad was shown.");
+            }
 
-
-        addStickerPackToWhatsApp2(identifier, stickerPackName);
+            @Override
+            public void onAdFailedToShowFullScreenContent(AdError adError) {
+                // Called when ad fails to show.
+                Log.d(TAG, "Rewarded Ad failed to show.");
+            }
+        });
     }
 
     protected void addStickerPackToWhatsApp2(String identifier, String stickerPackName) {

@@ -11,7 +11,6 @@
     android:background="#ffdbe9">
 
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
@@ -20,8 +19,7 @@
         android:layout_marginLeft="@dimen/preview_side_margin"
         android:layout_marginEnd="@dimen/preview_side_margin"
         android:layout_marginRight="@dimen/preview_side_margin"
-        android:layout_marginBottom="24dp"
-        >
+        android:layout_marginBottom="24dp">
 
 
         <ImageView
@@ -35,8 +33,7 @@
             android:src="@color/colorAccent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@color/colorAccent"
-            />
+            tools:src="@color/colorAccent" />
 
         <TextView
             android:id="@+id/pack_name"
@@ -102,9 +99,7 @@
             android:paddingLeft="@dimen/preview_side_margin"
             android:paddingEnd="@dimen/preview_side_margin"
             android:paddingRight="@dimen/preview_side_margin"
-            android:requiresFadingEdge="vertical"
-            android:background="#ffdbe9"
-            />
+            android:requiresFadingEdge="vertical" />
 
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/sticker_details_expanded_sticker"
@@ -187,4 +182,11 @@
                 android:text="@string/sticker_pack_details_tap_to_preview" />
         </LinearLayout>
     </FrameLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="ca-app-pub-2358576670844910/9822701893"/>
 </LinearLayout>

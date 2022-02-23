@@ -20,16 +20,57 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.OnUserEarnedRewardListener;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.android.gms.ads.rewarded.RewardItem;
+import com.google.android.gms.ads.rewarded.RewardedAd;
+import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
+
 
 public class BaseActivity extends AppCompatActivity {
 
 
+    public static RewardedAd mRewardedAd;
+    private static final String TAG = "BaseActivity AdMob: ";
+
     public void loadRewardedAd(){
-        //todo load ads
+        AdRequest adRequest = new AdRequest.Builder().build();
+        RewardedAd.load(this, "ca-app-pub-2358576670844910/9385741718",
+                adRequest, new RewardedAdLoadCallback() {
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        // Handle the error.
+                        Log.d(TAG, loadAdError.getMessage());
+                        mRewardedAd = null;
+                    }
+
+                    @Override
+                    public void onAdLoaded(@NonNull RewardedAd rewardedAd) {
+                        mRewardedAd = rewardedAd;
+                        Log.d(TAG, "Rewarded ad was loaded.");
+                    }
+                });
     }
 
     public void ShowRewardedAd(){
-        //todo show ads
+        if (mRewardedAd != null) {
+            Activity activityContext = this;
+            mRewardedAd.show(activityContext, new OnUserEarnedRewardListener() {
+                @Override
+                public void onUserEarnedReward(@NonNull RewardItem rewardItem) {
+                    // Handle the reward.
+                    Log.d(TAG, "The user earned the reward.");
+                    int rewardAmount = rewardItem.getAmount();
+                    String rewardType = rewardItem.getType();
+                }
+            });
+        } else {
+            Log.d(TAG, "The rewarded ad wasn't ready yet.");
+        }
     }
 
 
@@ -47,14 +88,14 @@ public class BaseActivity extends AppCompatActivity {
             pendingIntent = PendingIntent.getActivity
                     (this, 0, getIntent(), PendingIntent.FLAG_IMMUTABLE);
         //todo sanırım main screen ads
-        /*
+
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
         loadRewardedAd();
-    */
+
 
     }
 

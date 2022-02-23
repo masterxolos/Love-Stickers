@@ -27,8 +27,8 @@ android {
         applicationId "com.supercatgames.lovestickerapp"
         minSdkVersion 19
         targetSdkVersion 32
-        versionCode 8
-        versionName "8.0"
+        versionCode 10
+        versionName "10.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
