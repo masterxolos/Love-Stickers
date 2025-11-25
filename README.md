@@ -1,4 +1,4 @@
-![Project Cover Photo](screenshots/cover_photo.jpg) 
+![Project Cover Photo](screenshots/cover_photo.png) 
 # ❤️ Love Stickers for WhatsApp (Valentine's Day Pack)
 
 ## Project Overview
@@ -37,8 +37,8 @@ The project successfully met its learning objectives regarding app deployment an
 
 Here, I document the "business" side of the project, demonstrating experience with real-world app metrics.
 
-### 1. Facebook Ad Creative (Video/GIF Showcase)
-![Facebook Ad Creative](https://youtube.com/shorts/wADi6xlDs0s)
+### 1. Facebook Ad Creative (Video)
+[YouTube’da İzle](https://youtube.com/shorts/wADi6xlDs0s)
 
 *The creative asset used for the Facebook Ads campaign. This visual demonstrates the marketing content designed to attract users to the app.*
 
