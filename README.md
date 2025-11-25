@@ -39,14 +39,17 @@ Here, I document the "business" side of the project, demonstrating experience wi
 
 ### 1. Facebook Ad Creative (Video/GIF Showcase)
 ![Facebook Ad Creative](https://youtube.com/shorts/wADi6xlDs0s)
+
 *The creative asset used for the Facebook Ads campaign. This visual demonstrates the marketing content designed to attract users to the app.*
 
 ### 2. Google Play Console Data (Proof of Success)
 ![Google Play Installs](screenshots/100_install.jpg)
+
 *Google Play Console dashboard showing the growth trajectory, peaking at 100+ active installs during the campaign period.*
 
 ### 3. User Acquisition Experiment (Facebook Ads)
 ![Facebook Ads Results](screenshots/facebook_ads.jpg)
+
 *Results from a targeted ad campaign. I analyzed metrics like "Cost Per Mobile App Install" (approx. 0.42 TL at the time) to understand the economics of app marketing.*
 
 ---
@@ -55,10 +58,12 @@ Here, I document the "business" side of the project, demonstrating experience wi
 
 ### Main Interface
 ![App Main Screen](screenshots/main_screen.jpg)
+
 *The main dashboard allowing users to browse and select from various themed sticker packs.*
 
 ### Sticker Pack Details
 ![Sticker Details](screenshots/sticker_details.jpg)
+
 *Detail view showing the content of a sticker pack, ready to be added to WhatsApp.*
 
 ---
